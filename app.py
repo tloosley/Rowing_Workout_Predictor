@@ -20,7 +20,7 @@ default_5k = 100.0   # 1:48 per 500m
 default_30at20 = 107.0  # 2:00 per 500m
 
 # Streamlit UI
-st.image("Rowing Workout Predictor logo.png", use_column_width=True)
+st.image("Rowing Workout Predictor logo.png", use_container_width=True)
 st.title("Rowing Workout Predictor")
 st.write("Enter your erg test splits and workout details to get a personalized target split.")
 st.write("Workout format: reps * distance (rest minutes), e.g., 8*500m (2)")
